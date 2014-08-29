@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files`.split("\n")
   s.require_path = 'lib'
-  s.executables = 'svg-to-eps'
+  s.executables = ['svg-to-eps']
 
   s.requirements << 'inkscape'
 end
